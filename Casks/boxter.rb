@@ -19,12 +19,12 @@ cask "boxter" do
 
   on_arm do
     url "https://github.com/Sunil-ghodela/BoxTer/releases/download/v#{version}/BoxTer-#{version}-arm64.dmg"
-    sha256 "REPLACE_WITH_ARM64_DMG_SHA256"
+    sha256 "661b3a33a9aac24b18a9c5634d8fe7fe50ce65060bf1f38c4c4017ba56a747d6"
   end
 
   on_intel do
     url "https://github.com/Sunil-ghodela/BoxTer/releases/download/v#{version}/BoxTer-#{version}.dmg"
-    sha256 "REPLACE_WITH_X64_DMG_SHA256"
+    sha256 "4ca15c51afb8b365dab11b86831f2c743f34297a2c461b849445d39afdcbea3f"
   end
 
   name "BoxTer"
