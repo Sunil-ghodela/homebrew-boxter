@@ -15,16 +15,16 @@
 #   brew install --cask boxter
 
 cask "boxter" do
-  version "1.0.1"
+  version "1.1.1"
 
   on_arm do
     url "https://github.com/Sunil-ghodela/BoxTer/releases/download/v#{version}/BoxTer-#{version}-arm64.dmg"
-    sha256 "636af46895deefe85c0cafa2dd71050e4de75c8319e51812811e55ff645ddd9b"
+    sha256 "98c616ca52d722454d9902083b78761a004e73ebdfe2128c6ea1155ebcd16c14"
   end
 
   on_intel do
     url "https://github.com/Sunil-ghodela/BoxTer/releases/download/v#{version}/BoxTer-#{version}.dmg"
-    sha256 "c254201cbf95e0c4ac2d7d8fc4930cfbb86817d3791dee242e4f8935d07d5b43"
+    sha256 "10c28e31c346913abda0c72a801f467592f1f2814259a82255d5fc2fd046e6d4"
   end
 
   name "BoxTer"
